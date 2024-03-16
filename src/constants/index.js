@@ -104,19 +104,6 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Food Service Worker",
-        company_name: "Evolve-Hospitality",
-        icon: evolve_hospitality_logo,
-        iconBg: "#D9E8F2",
-        date: "October 2019 - December 2019",
-        points: [
-            "Training focused on Food and Wine service, preparing for various roles.",
-            "Developed competence as a core team member in front-of-house service through internal training.",
-            "Participated in various positions including general assistant, bartender, and waiter due to training and ample job opportunities.",
-            "Gained hands-on experience in a flexible environment that aligned with my studies.",
-        ],
-    },
-    {
         title: "Associate Consultant",
         company_name: "CAD-IT",
         icon: cadituk_logo,
