@@ -1,6 +1,6 @@
 # 3D Portfolio
 
-
+![image](https://github.com/JavascriptDon/3D-Portfolio-2024/assets/101202952/6e4f26f3-71e9-4ec0-97af-f6c5ebeafb05)
 
 This is an Interactive 3D website built to showcase the incredible ReactJS Framework, featuring React-DOM, React-Router-DOM, React-Vertical-Timeline-Component, React-Three/Fiber , React-Three/Drei, React-Spring/three  and emailJS. This projects provides the minimal setup required to make your own 3D portfolio with fun interactive parts, like a floating island and a fox that moves when you type.
 
