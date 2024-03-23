@@ -2,14 +2,14 @@
 import React, { useState, Suspense, useEffect, useRef} from 'react'
 import {Canvas} from '@react-three/fiber';
 import Loader from '../components/Loader';
-// import {Island} from '../models/Island.jsx';
+import {Island} from '../models/Island.jsx';
 import Sky from '../models/Sky.jsx';
 import Bird from '../models/Bird.jsx';
 import Plane from '../models/Plane.jsx';
 import HomeInfo from '../components/HomeInfo.jsx';
 import { soundoff, soundon } from "../assets/icons";
 import sakura from "../assets/music/sakura.mp3";
-import {ChillIsland} from "../models/Chill_Island.jsx";
+// import {ChillIsland} from "../models/Chill_Island.jsx";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -49,7 +49,7 @@ const Home = () => {
     if (window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];
     } else {
-      screenScale = [5, 5, 5];
+      screenScale = [1, 1, 1];
     }
 
     return [screenScale, screenPosition, rotation];
@@ -78,22 +78,22 @@ const Home = () => {
           />
           <Bird/>
           <Sky isRotating={isRotating}/>
-          {/* <Island
+           <Island
             position={islandPosition}
             scale={islandScale}
             rotation={islandRotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
-          /> */}
-          <ChillIsland 
+          /> 
+          {/* <ChillIsland 
                       position={islandPosition}
                       scale={islandScale}
                       rotation={islandRotation}
                       isRotating={isRotating}
                       setIsRotating={setIsRotating}
                       setCurrentStage={setCurrentStage}
-          />
+          />*/}
           <Plane
             isRotating={isRotating}
             scale={planeScale}
