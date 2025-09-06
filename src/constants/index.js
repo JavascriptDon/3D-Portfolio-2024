@@ -1,11 +1,14 @@
-import { cadituk_logo, evolve_hospitality_logo, } from "../assets/images";
+import { cadituk_logo} from "../assets/images";
 import {
+    atlassian,
     blog,
     contact,
+    Cortona3D,
     css,
     dashboard,
     git,
     github,
+    figma,
     html,
     javascript,
     linkedin,
@@ -16,12 +19,11 @@ import {
     nextjs,
     nodejs,
     react,
-    redux,
     sass,
     tailwindcss,
     typescript,
-    Cortona3D,
     SiemensLogo,
+    xml_logo,
 } from "../assets/icons";
 
 export const skills = [
@@ -33,11 +35,6 @@ export const skills = [
     {
         imageUrl: Cortona3D,
         name: "Rapid Author",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
         type: "Frontend",
     },
     {
@@ -56,19 +53,24 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: atlassian,
+        name: "Atlassian Suite",
+        type: "Productivity",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
+        imageUrl: figma,
+        name: "Figma-UI/UX",
+        type: "Design",
     },
     {
         imageUrl: nodejs,
@@ -81,11 +83,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
         imageUrl: sass,
         name: "Sass",
         type: "Frontend",
@@ -96,26 +93,38 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
+        imageUrl: xml_logo,
+        name: "XML",
+        type: "Data Interchange",
     }
 ];
 
 export const experiences = [
     {
         title: "Associate Consultant",
-        company_name: "CAD-IT",
+        company_name: "CAD-IT-UK",
         icon: cadituk_logo,
         iconBg: "#D9E8F2",
-        date: "January 2023 - Present",
+        date: "January 2023 - April-2024",
         points: [
             "Developing 3D interactive technical documentation for parts catalogs, work instructions, and training materials for the service and manufacturing industries.",
-            "Collaborating with diverse cross-functional teams such as Cortona3d Support, Project Management, Pre-Sales, Software Engineering, and Testing. ",
+            "Collaborating with diverse cross-functional teams such as Cortona3d Support, Siemens GTAC, Project Management, Pre-Sales, Software Engineering, and Testing. ",
             "Participated in daily Teams calls, chats, and regular meetings to gather customer requirements with the PLM Team and to resolve various technical issues on client projects.",
             "Gained hands-on experience with the end-to-end Teamcenter PLM and Cortona3D Product in client projects.",
         ],
-    },
+    },{
+        title: "RapidAuthor Consultant",
+        company_name: "CAD-IT-UK",
+        icon: cadituk_logo,  
+        date: "April 2024 - Present",
+        points: [
+            "Supporting digital transformation projects by implementing, customizing, and developing Rapid Author features using Siemens Teamcenter for diverse industries.",
+            "Delivering 3D technical solutions, including authoring, implementing, and providing user acceptance testing documentation, tailored to specific client needs.",
+            "Providing second-line support, troubleshooting technical issues, and resolving presales challenges for customer demos.",
+            "Maintaining up-to-date documentation for software and configuration changes in Teamcenter modules: Rapid Author connector, Active Workspace, Deployment Centre, and BMIDE.",
+            "Supporting new employees with the training materials from Cortona to learn the Rapid Author suite.",
+        ],
+    }
 ];
 
 export const socialLinks = [

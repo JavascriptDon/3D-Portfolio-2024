@@ -10,7 +10,6 @@ import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
-import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
@@ -25,10 +24,15 @@ import SiemensLogo from './SiemensLogo.png'
 import dashboard from './dashboard.png';
 import blog from './blog.png';
 import movie_logo from './movie-logo.png';
+import atlassian from './atlassian.svg';
+import figma from './figma.svg';
+import xml_logo from './xml.svg';
 export {
     blog,
     css,
     express,
+    figma,
+    xml_logo,
     git,
     github,
     html,
@@ -40,7 +44,6 @@ export {
     nextjs,
     nodejs,
     react,
-    redux,
     sass,
     tailwindcss,
     typescript,
@@ -52,5 +55,6 @@ export {
     soundoff,
     Cortona3D,
     SiemensLogo,
-    dashboard
+    dashboard,
+    atlassian
 }
